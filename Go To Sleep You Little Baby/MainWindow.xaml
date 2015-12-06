@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="Go_To_Sleep_You_Little_Baby.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Go_To_Sleep_You_Little_Baby"
+        mc:Ignorable="d"
+                      
+        Title="" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblSleepTime" Content="It's the best time for sleep ;)" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="21.333" Foreground="#CC119EDA"/>
+        <Label x:Name="lblTime" Content="" HorizontalAlignment="Center" Margin="0,123,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="16" Foreground="#CC119EDA"/>
+        <Label x:Name="lblRemaining" HorizontalAlignment="Center" Content="Компьютер будет выключен через " Margin="0,176,0,0" VerticalAlignment="Top" Foreground="WhiteSmoke"/>
+
+    </Grid>
+</Controls:MetroWindow>

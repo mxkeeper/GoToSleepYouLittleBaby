@@ -1,0 +1,23 @@
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\Go To Sleep You Little Baby.exe.config
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\Go To Sleep You Little Baby.exe
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\Go To Sleep You Little Baby.pdb
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\MahApps.Metro.dll
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\MahApps.Metro.pdb
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\MahApps.Metro.xml
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby.csprojResolveAssemblyReference.cache
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\MainWindow.g.cs
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\App.g.cs
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby_MarkupCompile.cache
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby_MarkupCompile.lref
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\MainWindow.baml
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby.g.resources
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go_To_Sleep_You_Little_Baby.Properties.Resources.resources
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby.csproj.GenerateResource.Cache
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby.exe
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\Go To Sleep You Little Baby.pdb
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\obj\Debug\App.baml
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\NAudio.dll
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\NAudio.xml
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\MyToolkit.dll
+C:\Users\Михаил\Documents\Visual Studio 2015\Projects\Go To Sleep You Little Baby\Go To Sleep You Little Baby\bin\Debug\MyToolkit.xml
