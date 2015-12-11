@@ -19,6 +19,7 @@ using NAudio.Wave;
 using System.IO;
 using System.Media;
 using System.Runtime.InteropServices;
+using Microsoft.Win32;
 
 namespace Go_To_Sleep_You_Little_Baby
 {
@@ -30,14 +31,18 @@ namespace Go_To_Sleep_You_Little_Baby
         [DllImport("Powrprof.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
         public static extern bool SetSuspendState(bool hiberate, bool forceCritical, bool disableWakeEvent);
 
+        WaveOut waveOutDevice = new WaveOut();
 
         DispatcherTimer dispatcherTimer = new DispatcherTimer();
         DispatcherTimer dispatcherTimer2 = new DispatcherTimer();
+
         int remain = 15;
         string content;
         public MainWindow()
         {
             InitializeComponent();
+
+            SystemEvents.PowerModeChanged += OnPowerChange;
 
             dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
@@ -54,11 +59,23 @@ namespace Go_To_Sleep_You_Little_Baby
             content = (string)lblRemaining.Content;
         }
 
+        private void OnPowerChange(object s, PowerModeChangedEventArgs e)
+        {
+            switch (e.Mode)
+            {
+                case PowerModes.Resume:
+                    {
+                        remain = 15;
+                        break;
+                    }
+            }
+        }
+
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
             string time = DateTime.Now.ToString("HH:mm:ss");
             lblTime.Content = time;
-            if (time.Equals("21:45:00"))
+            if (time.Equals("21:15:15"))
             {
                 this.Visibility = Visibility.Visible;
                 this.Activate();
@@ -72,8 +89,9 @@ namespace Go_To_Sleep_You_Little_Baby
         {
             if (remain == 0)
             {
-                SetSuspendState(false, true, true);
+                waveOutDevice.Stop();
                 dispatcherTimer2.Stop();
+                SetSuspendState(false, true, true);
                 return;
             }
             remain--;
@@ -81,7 +99,7 @@ namespace Go_To_Sleep_You_Little_Baby
         }
 
         private void UpdateRemainingTime(int i)
-        {         
+        {
             lblRemaining.Content = content + i.ToString() + " секунд";
         }
 
@@ -90,9 +108,9 @@ namespace Go_To_Sleep_You_Little_Baby
             MemoryStream ms = new MemoryStream(audio);
             WaveStream mp3Reader = new Mp3FileReader(ms);
             WaveChannel32 inputStream = new WaveChannel32(mp3Reader);
-            var waveOutDevice = new WaveOut();
 
             waveOutDevice.Init(inputStream);
+            waveOutDevice.Volume = 0.3f;
             waveOutDevice.Play();
         }
     }
