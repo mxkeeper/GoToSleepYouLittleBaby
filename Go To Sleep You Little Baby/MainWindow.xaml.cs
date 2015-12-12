@@ -75,7 +75,7 @@ namespace Go_To_Sleep_You_Little_Baby
         {
             string time = DateTime.Now.ToString("HH:mm:ss");
             lblTime.Content = time;
-            if (time.Equals("21:15:15"))
+            if (time.Equals("21:30:00"))
             {
                 this.Visibility = Visibility.Visible;
                 this.Activate();
