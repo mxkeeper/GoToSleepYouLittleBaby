@@ -82,7 +82,6 @@ namespace Go_To_Sleep_You_Little_Baby
                 PlayMp3Resources(Properties.Resources.Song);
                 dispatcherTimer2.Start();
             }
-
         }
 
         private void dispatcherTimer2_Tick(object sender, EventArgs e)
@@ -112,6 +111,11 @@ namespace Go_To_Sleep_You_Little_Baby
             waveOutDevice.Init(inputStream);
             waveOutDevice.Volume = 0.3f;
             waveOutDevice.Play();
+        }
+
+        private void MetroWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            this.Hide();
         }
     }
 }

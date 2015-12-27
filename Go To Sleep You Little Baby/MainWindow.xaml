@@ -6,7 +6,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:Go_To_Sleep_You_Little_Baby"
         mc:Ignorable="d"
-                      
+        Closing="MetroWindow_Closing"
         Title="" Height="350" Width="525" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label x:Name="lblSleepTime" Content="It's the best time for sleep ;)" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" FontFamily="Elephant" FontSize="21.333" Foreground="#CC119EDA"/>
